@@ -2,8 +2,8 @@
   "name": "budget-app",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js"
-  },
+  "main": "server.js",
+
   "repository": {
     "type": "git",
     "url": "git+https://github.com/coding-boot-camp/unit18hw.git"
