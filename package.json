@@ -20,7 +20,10 @@
   },
   "homepage": "https://github.com/coding-boot-camp/unit18hw#readme",
   "dependencies": {
+    "dot-prop": "^5.2.0",
     "express": "^4.17.1",
+    "jimp": "^0.16.0",
+    "minimist": "^1.2.5",
     "mongoose": "^5.9.28"
   },
   "devDependencies": {
