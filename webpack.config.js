@@ -1,4 +1,4 @@
-const SWPrecacheWebpackPlugin = require("sw-precache-webpack-plugin");
+// const SWPrecacheWebpackPlugin = require("sw-precache-webpack-plugin");
 const WebpackPwaManifest = require("webpack-pwa-manifest");
 const path = require("path");
 
@@ -13,13 +13,13 @@ const config = {
     filename: "[name].bundle.js"
   },
   plugins: [
-    new SWPrecacheWebpackPlugin({
-      cacheId: "my-domain-cache-id",
-      dontCacheBustUrlsMatching: /\.\w{8}\./,
-      filename: "service-worker.js",
-      minify: true,
-      staticFileGlobsIgnorePatterns: [/\.map$/, /manifest\.json$/]
-    }),
+    // new SWPrecacheWebpackPlugin({
+    //   cacheId: "my-domain-cache-id",
+    //   dontCacheBustUrlsMatching: /\.\w{8}\./,
+    //   filename: "service-worker.js",
+    //   minify: true,
+    //   staticFileGlobsIgnorePatterns: [/\.map$/, /manifest\.json$/]
+    // }),
     new WebpackPwaManifest({
       name: "Notes app",
       short_name: "Notes",
